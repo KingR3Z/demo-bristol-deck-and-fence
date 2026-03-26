@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Emma W.", rating: 5, text: "Contacted Bristol Deck and Fence after a recommendation from a friend and I can see why they were so highly rated. Excellent communication, fair price, and the garden looks incredible. Thank you!", date: "a month ago" },
+    { name: "Gary Davies", rating: 5, text: "We found Bristol Deck and Fence online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "3 months ago" },
+    { name: "Joanne F.", rating: 5, text: "Top quality work from Bristol Deck and Fence. They redesigned our outdoor space and it's now our favourite part of the house. The whole family spends so much more time outside now. Couldn't be happier.", date: "5 months ago" },
+    { name: "Adam Cook", rating: 5, text: "Just had Bristol Deck and Fence finish our garden project in Bristol. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "2 months ago" },
+    { name: "Emma Thompson", rating: 5, text: "After getting several quotes, we went with Bristol Deck and Fence and it was the best decision. Not the cheapest, but the quality of work is in a different league. Professional, reliable, and the results are gorgeous.", date: "3 months ago" },
+    { name: "Rosie Gray", rating: 5, text: "Hired Bristol Deck and Fence for a full garden redesign and the results speak for themselves. The team worked hard, kept us informed throughout, and left the site spotless each day. It's like having a brand new garden. Highly recommend to anyone i...", date: "4 months ago" },
+    { name: "Owen Taylor", rating: 5, text: "Used Bristol Deck and Fence for landscaping work at our property in Bristol. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "4 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
